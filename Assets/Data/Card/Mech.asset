@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026b6a315d5ffe44db3f3e6ce5e2c712, type: 3}
+  m_Name: Mech
+  m_EditorClassIdentifier: 
+  Health: 50
+  Tribe: 3
+  Material: {fileID: 2100000, guid: 80bb4a3369d761e41919d9f814e1c020, type: 2}
