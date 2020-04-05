@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 026b6a315d5ffe44db3f3e6ce5e2c712, type: 3}
-  m_Name: Mech
+  m_Script: {fileID: 11500000, guid: 241ad36b43956404ab9758a18b13419d, type: 3}
+  m_Name: Heal
   m_EditorClassIdentifier: 
-  Health: 50
-  Tribe: 3
-  Material: {fileID: 2100000, guid: 80bb4a3369d761e41919d9f814e1c020, type: 2}
+  Material: {fileID: 0}
+  Name: Heal
+  Type: 2
+  Cost: 1
+  Description: Heal a soldier for 5.

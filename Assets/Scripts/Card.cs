@@ -12,7 +12,15 @@ public class Card : MonoBehaviour
         Mech,
     }
 
+    public enum Type
+    {
+        Solider,
+        Calamity,
+        Action,
+    }
+
     public TextMeshPro m_footer;
+    public TextMeshPro m_cost;
     public MeshRenderer m_portrait;
 
     protected CardData m_data;
@@ -35,6 +43,12 @@ public class Card : MonoBehaviour
         m_footer.text = text;
     }
 
+    protected void SetCost(int cost)
+    {
+        ShowCost();
+        m_cost.text = cost.ToString();
+    }
+
     private void HideFooter()
     {
         m_footer.gameObject.SetActive(false);
@@ -43,5 +57,10 @@ public class Card : MonoBehaviour
     private void ShowFooter()
     {
         m_footer.gameObject.SetActive(true);
+    }
+
+    private void ShowCost()
+    {
+        m_cost.gameObject.SetActive(true);
     }
 }
